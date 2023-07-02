@@ -10,6 +10,11 @@ class HomeScreen extends StatelessWidget {
         title: const Text("Home"),
         centerTitle: true,
       ),
+      body: const SafeArea(
+        child: Center(
+          child: Text("This is mobile"),
+        ),
+      ),
     );
   }
 }
